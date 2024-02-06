@@ -11,12 +11,13 @@ import time
 
 CATALOGUE_JSON = {}
 
+
 class CheckElement:
     """
     This class encloses all the information about an item
     from the catalogue.
     """
-    def __init__(self, prod_name, cost, qty = 0):
+    def __init__(self, prod_name, cost, qty=0):
         self.prod_name = prod_name
         self.unit_cost = cost
         self.qty = qty
@@ -56,6 +57,7 @@ class CheckElement:
         """
         return self.total_to_pay
 
+
 def read_json_file(file_path):
     """
     This function reads the json file and handles errors such as:
@@ -79,6 +81,7 @@ def read_json_file(file_path):
 
     return json_file
 
+
 def get_price(store_item):
     """
     Returns the price of a specific item in the catalogue
@@ -95,10 +98,11 @@ def get_price(store_item):
     print(f"Item '{store_item}' not found in catalogue")
     return 0
 
+
 def get_checkout(check_file):
     """
-    This function generates the check from the selected 
-    products in the Sales json, calculating the total 
+    This function generates the check from the selected
+    products in the Sales json, calculating the total
     number of items per product, total to pay per product,
     and total to pay for all products.
     """
@@ -113,9 +117,10 @@ def get_checkout(check_file):
         if product in dic_check:
             dic_check[product].add_elements(qty)
         else:
-            dic_check[product] = CheckElement(product,cost,qty)
+            dic_check[product] = CheckElement(product, cost, qty)
 
     return dic_check
+
 
 def print_checkout(dic_checkout):
     """
@@ -127,8 +132,8 @@ def print_checkout(dic_checkout):
     check_out_output = []
     for item in dic_checkout.values():
         line_out = (f"{item.get_product_name()} = {item.get_total_qty()}" +
-            f" piece(s) x ${item.get_unit_cost()} =  " + 
-            f"${round(item.get_total_to_pay(),2)}")
+                    f" piece(s) x ${item.get_unit_cost()} =  " +
+                    f"${round(item.get_total_to_pay(),2)}")
         print(line_out)
         check_out_output.append(line_out + "\n")
         total += item.get_total_to_pay()
