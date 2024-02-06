@@ -1,0 +1,21 @@
+Rustic breakfast = 200 piece(s) x $21.32 =  $4264.0
+Sandwich with salad = 23 piece(s) x $22.48 =  $517.04
+Raw legums = 13 piece(s) x $17.11 =  $222.43
+Fresh stawberry = 221 piece(s) x $28.59 =  $6318.39
+Green smoothie = 580 piece(s) x $17.68 =  $10254.4
+Cuban sandwiche = 2 piece(s) x $18.5 =  $37.0
+Hazelnut in black ceramic bowl = 7 piece(s) x $27.35 =  $191.45
+Tomatoes = 1 piece(s) x $26.03 =  $26.03
+Plums = 1231 piece(s) x $19.18 =  $23610.58
+Fresh blueberries = 3744 piece(s) x $21.01 =  $78661.44
+Corn = 1664 piece(s) x $13.55 =  $22547.2
+French fries = 37 piece(s) x $18.32 =  $677.84
+Ground beef meat burger = 146 piece(s) x $11.73 =  $1712.58
+Sweet fresh stawberry = 221 piece(s) x $29.45 =  $6508.45
+Homemade bread = 466 piece(s) x $17.48 =  $8145.68
+Smoothie with chia seeds = 61 piece(s) x $25.26 =  $1540.86
+Elotes = 100 piece(s) x $0 =  $0
+Frijoles = 100 piece(s) x $0 =  $0
+==============================
+Total: $165235.37
+Time elapsed:0.010450363159179688 seconds
